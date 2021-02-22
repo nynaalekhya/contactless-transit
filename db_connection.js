@@ -12,7 +12,7 @@ function run() {
         secureConnectBundle: "secure-connect-mydb.zip",
       },
       keyspace: "tables",
-      credentials: { username: "alex23", password: "alex123456" },
+      credentials: { username: "user", password: "password" },
     });
     
     return client;
