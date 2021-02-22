@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+        <link rel="stylesheet" href="refund_style.css" />
+    </head>
+<body>
+    <div class="logo"><a href="/home" style="text-decoration: none;color: #FFFFFF;">LOGO</a></div>
+    <div class="payments">
+    <div class="title">My Payments</div>
+    <% tickets.forEach(function(ticket){ %>
+        <div class="payment">
+        <img src="Images/credit.svg">
+        <div><%= ticket.amount %></div>
+        <div><%= ticket.from %></div>
+        <div><%= ticket.to %></div>
+        <a class="refund" href="/refund?userId=<%= userId %>&ticketId=<%= ticket.ticket_id %>">Refund</a>
+        </div>
+    <% }) %>
+   </div>
+</body>
+</html>

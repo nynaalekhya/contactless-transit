@@ -1,0 +1,125 @@
+body,html {
+    margin:0;
+    padding:0;
+   
+  }
+.container{
+    border-style: none;
+    display:flex;
+    width:100%;
+    height:100%
+}
+.search{
+    position: relative;
+    background-color: #9C24C6;
+    width:20%;
+    height:100%;
+}
+.logo{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding:10px;
+}
+.list{
+    width:80%;
+  
+}
+form {
+   
+    top:1%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    
+ }
+ .from ,.to{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border-style:solid;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+    padding:0px 1em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #FFFFFF;
+ }
+ .submit{
+    background-color:rgba(240, 236, 236, 0.01);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    border: 3px solid #EDF1F8;
+    border-radius: 4px;
+    width:100px;
+    height: 45px;
+    font-weight: 600;
+    margin-top:30px;
+    font-size: 1.3rem;
+    padding:0.3em;
+    color: #FFFFFF;
+
+ }
+ .navbar{
+   
+    float:right;
+    margin-right:10%;
+    margin-top: 2%;
+
+   
+}
+.navbar a{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 80px;
+    color: #000000;
+   
+}
+.title{
+    margin-top:9%;
+    margin-left:9%;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.8rem;
+}
+.tickets{
+    margin-bottom:15%;
+    margin-left:15%;
+    margin-top: 5%;
+}
+.ticket{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+   width:800px;
+   height: 100px;
+   background: linear-gradient(267.14deg, #FFFFFF 43.83%, #FFFFFF 92.79%);
+   border: 1px solid #ECECEC;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 5px 0px 0px 5px;
+   padding:2rem;
+   margin-bottom:2%;
+}
+.ticket div,.ticket a{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.5rem;
+    padding:2rem;
+    margin:0px 10px
+
+}
+.book{
+    background: #4C1460;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+  
+}

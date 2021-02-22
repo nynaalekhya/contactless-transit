@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+        <link rel="stylesheet" href="list_style.css" />
+    </head>
+    <body>
+        <div class="container">
+        <div class="search">
+        <div class="logo"><a href="/home" style="text-decoration: none;color: #FFFFFF;">LOGO</a></div>
+        <form action="/search" method="POST">
+            <input class="from" type="text" name="from" />
+            <input class="to" type="text" name="to" />
+            <input class="submit" type="submit" value="Search"/>
+        </form>
+       </div>
+        <div class="list">
+            <div class="navbar">
+                <a href="/home3" style="text-decoration: none;">signin</a>
+                <a href="/home2" style="text-decoration: none;">signup</a>
+            </div>
+            <div class="title">Tickets Search</div>
+            <div class="tickets">
+        <% tickets.forEach(function(ticket){ %>
+            <div class="ticket">
+            <div>$<%= ticket.amount %></div>
+            <div><%= ticket.from %></div>
+            <div><%= ticket.to %></div>
+            <div><%= ticket.duration %>hr</div>
+            <a class="book" href="/details?id=<%= ticket.ticket_id %>">Book</a>
+         </div>
+        <% }) %>
+    </div>
+        </div>
+    </div>
+</div>
+    
+    </body>
+</html>

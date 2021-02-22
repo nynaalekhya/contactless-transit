@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://checkout.stripe.com/checkout.js" defer></script>
+        <script src="pay.js" type="text/javascript" defer>
+            </script>
+        
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+            <link rel="stylesheet" href="ticket_style.css" />
+       
+            
+    </head>
+    <body>
+        <div class="logo"><a href="/home" style="text-decoration: none;color: #FFFFFF;">LOGO</a></div>
+        <div class="section">
+        <div class="id"><%= id %></div>
+        <div class="location">
+        <div class="origin">
+        <img src="Images/location.svg">
+        <div class="from"><%= item.from%></div>
+        </div>
+        <div class="des">
+        <img src="Images/location.svg">
+        <div class="to"><%= item.to %></div>
+        </div>
+    </div>
+        <div class="container">
+        <div class="duration">
+        <div>Duration</div>
+        <div class="duration"><%= item.duration %></div>
+        </div>
+        <div class="amount">
+        <div>Amount</div>
+        <div class="price"><%= item.amount %></div>
+        </div>
+        </div>
+        <button>Pay</button>
+    </div>
+    </body>
+</html>
+
+

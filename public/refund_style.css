@@ -1,0 +1,66 @@
+body,html {
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .logo{
+    float:left;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding:10px;
+}
+body{
+    background: #BD00FF;
+    border-radius: 3px;
+}
+.payments{
+    background: #FFFFFF;
+    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25), inset 1px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width:60%;
+  height:550px;
+  
+}
+.payment{
+    background: #FFFFFF;
+border: 1px solid #D2CECE;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width:85%;
+height:20%;
+margin: 4% 5%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.payment div{
+    color:black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.title{
+    margin:3% 4%;
+    font-size:1.7rem;
+    font-weight: bold;
+    color:black;
+}
+.refund{
+    text-decoration:none ;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    padding:9px;
+}
+a:hover{
+    padding:2px;
+    border:2px solid #BD00FF;
+}
