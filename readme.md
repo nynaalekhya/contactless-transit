@@ -1,7 +1,7 @@
-# Bus Transit App
+# Contactless Transit App
 
 
-Bus Transit is web application which enables the user to experience hassle free, contactless travel during pandemic and is based on pay-only-when-travelled principle. The passenger has the flexibility to be charged for the journey only if one has travelled.
+Contactless Transit App is web application which enables the user to experience hassle free, contactless travel during pandemic and is based on pay-only-when-travelled principle. The passenger has the flexibility to be charged for the journey only if one has travelled.
 
 
 # Features!
